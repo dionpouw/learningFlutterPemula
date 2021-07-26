@@ -15,7 +15,10 @@ class _MainScreenState extends State<MainScreen> {
     return SafeArea(
         child: Scaffold(
             appBar: AppBar(
-      title: Text(widget.title),
-    )));
+              title: Text(widget.title),
+            ),
+            body: Column(
+              children: [],
+            )));
   }
 }
